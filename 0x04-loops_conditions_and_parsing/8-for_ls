@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
-#
+#displaying content of the current directory
+#in a ;ist format only the name after the dash is displayed
 
-list=$(ls)
-for i in $list; do
-  echo "$i" | cut -d '-' -f2
+
+for i in *;
+do
+    echo "$i" | cut -d'-' -f2
 done
