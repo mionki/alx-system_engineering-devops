@@ -7,3 +7,7 @@
  1-install_a_package.pp:
     
     Installs flask from pip3
+    
+ 2-execute_a_command.pp:
+ 
+    A manifest that kills a process named killmenow
